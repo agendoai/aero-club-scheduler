@@ -1,0 +1,299 @@
+{
+  "backup_date": "2025-01-25T12:26:00Z",
+  "database_project": "ovkbimpzvewdryjzspen",
+  "backup_type": "complete",
+  "tables": {
+    "profiles": [
+      {
+        "id": "70f83e50-5aa5-4a8a-a7e1-c1e6f5089a57",
+        "name": "thiago araujo",
+        "email": "chasp.habi@gmail.com",
+        "role": "client",
+        "membership_tier": "basic",
+        "priority_position": 1,
+        "balance": 11783.00,
+        "monthly_fee_status": "paid",
+        "created_at": "2025-06-17T15:32:34.897046+00:00",
+        "updated_at": "2025-06-17T15:32:34.897046+00:00"
+      },
+      {
+        "id": "795c4283-d6c3-4cdd-bcab-08dabda64be6",
+        "name": "joao aresta",
+        "email": "agendoai@gmail.com",
+        "role": "client",
+        "membership_tier": "basic",
+        "priority_position": 2,
+        "balance": 39290.00,
+        "monthly_fee_status": "paid",
+        "created_at": "2025-06-18T12:52:12.533536+00:00",
+        "updated_at": "2025-06-18T12:52:12.533536+00:00"
+      }
+    ],
+    "aircraft": [
+      {
+        "id": "ddec6094-2eb8-49cb-97c3-657fcb5357e4",
+        "name": "Citation CJ3+",
+        "model": "Cessna Citation CJ3+",
+        "registration": "PR-ECA",
+        "hourly_rate": 4200.00,
+        "max_passengers": 6,
+        "status": "available",
+        "maintenance_status": "operational",
+        "seat_configuration": {
+          "layout": "2-2",
+          "total_seats": 6,
+          "seats": [
+            {"number": 1, "position": "A", "row": 1, "type": "standard"},
+            {"number": 2, "position": "B", "row": 1, "type": "standard"},
+            {"number": 3, "position": "C", "row": 1, "type": "standard"},
+            {"number": 4, "position": "D", "row": 1, "type": "standard"},
+            {"number": 5, "position": "A", "row": 2, "type": "standard"},
+            {"number": 6, "position": "B", "row": 2, "type": "standard"}
+          ]
+        },
+        "created_at": "2025-06-16T17:07:04.534468+00:00",
+        "updated_at": "2025-06-16T17:07:04.534468+00:00"
+      },
+      {
+        "id": "27ff71e4-22f4-438e-88dd-34e4522fe475",
+        "name": "Phenom 300",
+        "model": "Embraer Phenom 300",
+        "registration": "PR-ECB",
+        "hourly_rate": 4200.00,
+        "max_passengers": 8,
+        "status": "available",
+        "maintenance_status": "operational",
+        "seat_configuration": {
+          "layout": "2-2",
+          "total_seats": 8,
+          "seats": [
+            {"number": 1, "position": "A", "row": 1, "type": "standard"},
+            {"number": 2, "position": "B", "row": 1, "type": "standard"},
+            {"number": 3, "position": "C", "row": 1, "type": "standard"},
+            {"number": 4, "position": "D", "row": 1, "type": "standard"},
+            {"number": 5, "position": "A", "row": 2, "type": "standard"},
+            {"number": 6, "position": "B", "row": 2, "type": "standard"},
+            {"number": 7, "position": "C", "row": 2, "type": "standard"},
+            {"number": 8, "position": "D", "row": 2, "type": "standard"}
+          ]
+        },
+        "created_at": "2025-06-16T17:07:04.534468+00:00",
+        "updated_at": "2025-06-16T17:07:04.534468+00:00"
+      },
+      {
+        "id": "8ef96852-8c93-42e6-9cc7-8ef700a9de63",
+        "name": "King Air 350",
+        "model": "Beechcraft King Air 350",
+        "registration": "PR-ECC",
+        "hourly_rate": 4200.00,
+        "max_passengers": 9,
+        "status": "available",
+        "maintenance_status": "operational",
+        "seat_configuration": {
+          "layout": "2-2",
+          "total_seats": 9,
+          "seats": [
+            {"number": 1, "position": "A", "row": 1, "type": "standard"},
+            {"number": 2, "position": "B", "row": 1, "type": "standard"},
+            {"number": 3, "position": "C", "row": 1, "type": "standard"},
+            {"number": 4, "position": "D", "row": 1, "type": "standard"},
+            {"number": 5, "position": "A", "row": 2, "type": "standard"},
+            {"number": 6, "position": "B", "row": 2, "type": "standard"},
+            {"number": 7, "position": "C", "row": 2, "type": "standard"},
+            {"number": 8, "position": "D", "row": 2, "type": "standard"},
+            {"number": 9, "position": "A", "row": 3, "type": "standard"}
+          ]
+        },
+        "created_at": "2025-06-16T17:07:04.534468+00:00",
+        "updated_at": "2025-06-16T17:07:04.534468+00:00"
+      }
+    ],
+    "bookings": [
+      {
+        "id": "479106e6-d767-4ee3-895c-b19313df0823",
+        "user_id": "70f83e50-5aa5-4a8a-a7e1-c1e6f5089a57",
+        "aircraft_id": "27ff71e4-22f4-438e-88dd-34e4522fe475",
+        "origin": "Aracatuba",
+        "destination": "Sao paulo",
+        "departure_date": "2025-06-19",
+        "departure_time": "09:38:00",
+        "return_date": "2025-06-20",
+        "return_time": "10:39:00",
+        "passengers": 4,
+        "flight_hours": 1.5,
+        "airport_fees": 417.00,
+        "overnight_stays": 1,
+        "overnight_fee": 1500.00,
+        "total_cost": 8217.00,
+        "status": "pending",
+        "priority_expires_at": "2025-06-19T12:40:14.701602+00:00",
+        "maintenance_buffer_hours": 3,
+        "created_at": "2025-06-18T12:40:14.701602+00:00",
+        "updated_at": "2025-06-18T12:40:14.701602+00:00"
+      },
+      {
+        "id": "290ba8c1-a001-40fb-a34d-73c4b0e6c552",
+        "user_id": "795c4283-d6c3-4cdd-bcab-08dabda64be6",
+        "aircraft_id": "27ff71e4-22f4-438e-88dd-34e4522fe475",
+        "origin": "Aracatuba",
+        "destination": "Sao paulo",
+        "departure_date": "2025-06-20",
+        "departure_time": "12:00:00",
+        "return_date": "2025-06-21",
+        "return_time": "10:00:00",
+        "passengers": 2,
+        "flight_hours": 1.5,
+        "airport_fees": 417.00,
+        "overnight_stays": 1,
+        "overnight_fee": 1500.00,
+        "total_cost": 8217.00,
+        "status": "pending",
+        "priority_expires_at": "2025-06-19T13:01:09.200276+00:00",
+        "maintenance_buffer_hours": 3,
+        "created_at": "2025-06-18T13:01:09.200276+00:00",
+        "updated_at": "2025-06-18T13:01:09.200276+00:00"
+      },
+      {
+        "id": "4395e8b6-e162-4c35-8bc0-097eb50a1d81",
+        "user_id": "795c4283-d6c3-4cdd-bcab-08dabda64be6",
+        "aircraft_id": "8ef96852-8c93-42e6-9cc7-8ef700a9de63",
+        "origin": "Aracatuba",
+        "destination": "Sao paulo",
+        "departure_date": "2025-06-19",
+        "departure_time": "15:40:00",
+        "return_date": "2025-06-20",
+        "return_time": "15:40:00",
+        "passengers": 2,
+        "flight_hours": 2.6,
+        "airport_fees": 417.00,
+        "overnight_stays": 0,
+        "overnight_fee": 0.00,
+        "total_cost": 11337.00,
+        "status": "pending",
+        "stops": "mato grosso",
+        "priority_expires_at": "2025-06-19T18:41:27.413736+00:00",
+        "maintenance_buffer_hours": 3,
+        "created_at": "2025-06-18T18:41:27.413736+00:00",
+        "updated_at": "2025-06-18T18:41:27.413736+00:00"
+      },
+      {
+        "id": "d76c140a-3420-4003-a68b-340db4034233",
+        "user_id": "795c4283-d6c3-4cdd-bcab-08dabda64be6",
+        "aircraft_id": "ddec6094-2eb8-49cb-97c3-657fcb5357e4",
+        "origin": "GRU",
+        "destination": "sao paulo",
+        "departure_date": "2024-07-28",
+        "departure_time": "10:00:00",
+        "return_date": "2024-07-23",
+        "return_time": "18:00:00",
+        "passengers": 2,
+        "flight_hours": 2.5,
+        "airport_fees": 0.00,
+        "overnight_stays": 0,
+        "overnight_fee": 0.00,
+        "total_cost": 10710.00,
+        "status": "confirmed",
+        "blocked_until": "2024-07-28T15:30:00+00:00",
+        "maintenance_buffer_hours": 3,
+        "created_at": "2025-07-02T12:06:39.876874+00:00",
+        "updated_at": "2025-07-02T12:06:39.876874+00:00"
+      }
+    ],
+    "pre_reservations": [
+      {
+        "id": "dfa5511b-a687-4fb0-9493-2da065c2d552",
+        "user_id": "795c4283-d6c3-4cdd-bcab-08dabda64be6",
+        "aircraft_id": "ddec6094-2eb8-49cb-97c3-657fcb5357e4",
+        "origin": "GRU",
+        "destination": "sao paulo",
+        "departure_date": "2024-07-28",
+        "departure_time": "10:00:00",
+        "return_date": "2024-07-23",
+        "return_time": "18:00:00",
+        "passengers": 2,
+        "flight_hours": 2.5,
+        "total_cost": 10500.00,
+        "priority_position": 2,
+        "expires_at": "2025-07-03T00:06:29.176003+00:00",
+        "overnight_stays": 0,
+        "overnight_fee": 0,
+        "payment_method": "card",
+        "status": "confirmed",
+        "created_at": "2025-07-02T12:06:29.176003+00:00",
+        "updated_at": "2025-07-02T12:06:29.176003+00:00"
+      }
+    ],
+    "transactions": [
+      {
+        "id": "70d46731-7e31-4d5a-ad4c-ee3a2426c060",
+        "user_id": "70f83e50-5aa5-4a8a-a7e1-c1e6f5089a57",
+        "booking_id": "479106e6-d767-4ee3-895c-b19313df0823",
+        "amount": 8217.00,
+        "type": "debit",
+        "description": "Reserva Aracatuba → Sao paulo",
+        "created_at": "2025-06-18T12:40:14.701602+00:00"
+      },
+      {
+        "id": "585fc423-86c0-4e6d-93bc-d8ce241ce440",
+        "user_id": "795c4283-d6c3-4cdd-bcab-08dabda64be6",
+        "booking_id": "290ba8c1-a001-40fb-a34d-73c4b0e6c552",
+        "amount": 8217.00,
+        "type": "debit",
+        "description": "Reserva Aracatuba → Sao paulo",
+        "created_at": "2025-06-18T13:01:09.200276+00:00"
+      },
+      {
+        "id": "d4610dec-c697-46a5-8851-fbe352aded5c",
+        "user_id": "795c4283-d6c3-4cdd-bcab-08dabda64be6",
+        "booking_id": "4395e8b6-e162-4c35-8bc0-097eb50a1d81",
+        "amount": 11337.00,
+        "type": "debit",
+        "description": "Reserva Aracatuba → Sao paulo",
+        "created_at": "2025-06-18T18:41:27.413736+00:00"
+      },
+      {
+        "id": "fa2a201c-f9a1-470a-888c-6283abd52ceb",
+        "user_id": "795c4283-d6c3-4cdd-bcab-08dabda64be6",
+        "booking_id": "d76c140a-3420-4003-a68b-340db4034233",
+        "amount": 10710.00,
+        "type": "debit",
+        "description": "Reserva GRU → sao paulo",
+        "created_at": "2025-07-02T12:06:39.876874+00:00"
+      }
+    ],
+    "passengers": [],
+    "booking_passengers": [],
+    "pre_reservation_passengers": [],
+    "payment_methods": [],
+    "credit_recharges": [],
+    "chat_rooms": [],
+    "chat_messages": [],
+    "chat_participants": [],
+    "seat_sharing": [],
+    "priority_slots": [
+      {
+        "id": "f07c4673-00f5-440e-b5ae-0172bf07028d",
+        "slot_number": 1,
+        "is_available": true,
+        "created_at": "2025-06-18T15:27:53.730451+00:00",
+        "updated_at": "2025-06-18T15:27:53.730451+00:00"
+      },
+      {
+        "id": "cfd1ab74-b035-4890-bd6b-7075b824457e",
+        "slot_number": 2,
+        "is_available": true,
+        "created_at": "2025-06-18T15:27:53.730451+00:00",
+        "updated_at": "2025-06-18T15:27:53.730451+00:00"
+      }
+    ]
+  },
+  "summary": {
+    "total_users": 2,
+    "total_aircraft": 3,
+    "total_bookings": 4,
+    "total_pre_reservations": 1,
+    "total_transactions": 4,
+    "priority_slots_available": 100,
+    "total_user_balance": 51073.00
+  }
+}

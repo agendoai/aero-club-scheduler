@@ -23,6 +23,8 @@ interface MissionConfirmationProps {
   missionEnd: Date;
   destinations: Destination[];
   totalCost: number;
+  userPriority: number;
+  isImmediate: boolean;
   onFinish: () => void;
 }
 
